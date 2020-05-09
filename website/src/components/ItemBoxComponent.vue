@@ -56,6 +56,7 @@ export default {
 
 .item {
   padding: 10px;
+  width: 150px;
   /* width: 30vw; */
 }
 </style>
