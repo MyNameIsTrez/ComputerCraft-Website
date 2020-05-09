@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-    <ItemBoxComponent class="bla" msg="Welcome to Your Vue.js App" />
+    <ItemBoxComponent class="foo" msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
@@ -23,8 +23,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-.bla {
-  width: 100vw;
 }
 </style>

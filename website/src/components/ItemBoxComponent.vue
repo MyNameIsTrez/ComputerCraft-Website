@@ -7,7 +7,7 @@
       <div class="crafting-status-button"></div>
       <ul class="storage">
         <li class="item-box" v-for="(item, index) in items" :key="index">
-          <img class="item" :src="getImgUrl(item.img)" v-bind:alt="item.img" />
+          <img class="item" v-lazy="getImgUrl(item.img)" v-bind:alt="item.img" />
         </li>
       </ul>
     </div>
@@ -49,6 +49,7 @@ export default {
 .item-box {
   display: flex;
   width: 150px;
+  /* width: 11vw; */
   padding: 0px; /* 200 / 18 * 2 */
   background-image: url("../assets/item-box.svg");
 }
