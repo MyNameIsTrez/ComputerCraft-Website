@@ -1,0 +1,90 @@
+coal
+gunpowder
+raw rubber
+sugar
+basalt cobblestone
+limestone
+redstone
+blaze rod
+obsidian
+sandstone
+cobblestone
+dirt
+sand
+stone
+glass
+gravel
+andesite
+diorite
+granite
+seeds
+oak sapling
+acacia sapling
+carrot
+wheat
+dark oak wood
+potato
+birch wood
+oak wood
+acacia wood
+birch sapling
+marble
+glass bottle
+
+rubber wood
+apple
+clay
+pumpkin
+stick
+stone bricks
+(raw) marble
+spider eye
+lapis lazuli
+netherrack
+soul sand
+poisonous potato
+red sand
+copper ingot
+glowstone dust
+mycelium
+tin ingot
+flint
+paper
+podzol
+torch
+(borderless) glass
+birch wood planks
+book
+(light) glass
+charcoal
+(disordered) stone bricks
+raw porkchop
+leather
+raw plastic
+raw beef
+sugar canes
+
+dirt (/1)
+raw fish
+raw salmon
+rubber sapling
+industrial fertilizer
+pumpkin seeds
+pufferfish
+fertile soil
+sulfur
+certus quartz dust
+wool
+saltpeter
+pure fluix crystal
+egg
+peridot
+sapphire
+pure certus quartz crystal
+ruby
+copper ore
+tin ore
+glowstone
+certus quartz crystal
+bone meal
+fluix dust
