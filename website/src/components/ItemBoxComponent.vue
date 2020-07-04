@@ -7,6 +7,7 @@
     <ul class="storage">
       <li class="item-box" v-for="(item, index) in items" :key="index">
         <img class="item" v-lazy="getImgUrl(item.img)" v-bind:alt="item.img" />
+        <div class="count">0</div>
       </li>
     </ul>
   </div>
@@ -39,26 +40,32 @@ export default {
 .storage {
   display: flex;
   flex-flow: row wrap;
-  /* justify-content: normal; */
   padding: 0;
   margin: 0;
-  /* list-style: none; */
 }
 
 .item-box {
   display: flex;
-  /* width: 150px; */
-  /* width: 11vw; */
-
-  /* padding: 0px; */
-  /* 200 / 18 * 2 */
-
+  position: relative;
   background-image: url("../assets/item-box.svg");
 }
 
 .item {
   padding: 10px;
   width: 150px;
-  /* width: 30vw; */
+}
+
+@font-face {
+  font-family: minecraft;
+  src: url("../assets/fonts/minecraft.otf");
+}
+
+.count {
+  font-family: minecraft;
+  color: white;
+  font-size: 300%;
+  position: absolute;
+  right: 15px;
+  bottom: 0px;
 }
 </style>

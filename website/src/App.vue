@@ -1,7 +1,8 @@
 <template>
-  <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-    <ItemBoxComponent class="foo" msg="Welcome to Your Vue.js App" />
+  <div>
+    <div id="app">
+      <ItemBoxComponent class="foo" msg="Welcome to Your Vue.js App" />
+    </div>
   </div>
 </template>
 
@@ -17,11 +18,11 @@ export default {
 </script>
 
 <style>
-#app {
+/* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
+} */
 </style>
