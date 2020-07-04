@@ -7,7 +7,10 @@
     <ul class="storage">
       <li class="item-box" v-for="(item, index) in items" :key="index">
         <img class="item" v-lazy="getImgUrl(item.img)" v-bind:alt="item.img" />
-        <div class="count">0</div>
+        <div class="count">
+          <div class="count-shadow">150K</div>
+          <div class="count-regular">150K</div>
+        </div>
       </li>
     </ul>
   </div>
@@ -62,10 +65,21 @@ export default {
 
 .count {
   font-family: minecraft;
-  color: white;
   font-size: 300%;
+  position: relative;
+}
+
+.count-shadow {
   position: absolute;
-  right: 15px;
+  color: #3f3f3f;
   bottom: 0px;
+  right: 14.5px;
+}
+
+.count-regular {
+  position: absolute;
+  color: white;
+  bottom: 5px;
+  right: 19.5px;
 }
 </style>
