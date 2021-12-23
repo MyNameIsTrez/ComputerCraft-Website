@@ -1,7 +1,10 @@
-# website
+# ComputerCraft-Website
 
 ## Project setup
+
+### Goes to the right folder and installs dependencies
 ```
+cd browser
 npm install
 ```
 
