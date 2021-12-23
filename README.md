@@ -4,7 +4,7 @@
 
 ### Goes to the right folder and installs dependencies
 ```
-cd browser
+cd website
 npm install
 ```
 
